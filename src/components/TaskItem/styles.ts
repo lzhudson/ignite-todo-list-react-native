@@ -35,6 +35,7 @@ export const styles = StyleSheet.create({
     color: '#F2F2F2',
     maxWidth: 250,
     lineHeight: 19.6,
+    fontFamily: 'Inter_400Regular'
   },
   taskTitleFinishedTask: {
     color: '#808080',
