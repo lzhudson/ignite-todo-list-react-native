@@ -18,7 +18,7 @@ export function Home() {
     <View style={style.container}>
       <Header />
       <AddTaskForm onAddTask={setTasks} />
-      <Tasks tasks={tasks} />
+      <Tasks tasks={tasks} onUpdateTask={setTasks} />
     </View>
   )
 }
