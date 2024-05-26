@@ -1,13 +1,14 @@
 import { Text, TouchableOpacity, View } from "react-native";
 import { styles } from "./styles";
 import { Check, Trash } from 'phosphor-react-native'
+import { Task } from "../../screens/Home";
 
 type Props = {
+  name: string
   hasFinishedTask: boolean
 }
 
-export function TaskItem({ hasFinishedTask } : Props) {
-  
+export function TaskItem({ name, hasFinishedTask } : Props) {
 
   return (
     <View style={[styles.container, hasFinishedTask && styles.styleContainerFinishedTask]}>
@@ -15,7 +16,7 @@ export function TaskItem({ hasFinishedTask } : Props) {
         {hasFinishedTask && <Check size={10} color="#FFF" />}
       </TouchableOpacity>
       <Text style={[styles.taskTitle, hasFinishedTask && styles.taskTitleFinishedTask]}>
-        Integer urna interdum massa libero auctor neque turpis turpis semper.
+        {name}
       </Text>
       <TouchableOpacity style={styles.excludeTaskButton}>
         <Trash size={18} color="#808080" />
