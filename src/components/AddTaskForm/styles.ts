@@ -17,6 +17,7 @@ export const style = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#0D0D0D',
     borderRadius: 6,
+    fontFamily: 'Inter_400Regular'
   },
   buttonAddTask: {
     width: 52,

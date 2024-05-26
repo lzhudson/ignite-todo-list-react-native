@@ -16,11 +16,13 @@ export const style = StyleSheet.create({
     color: '#4EA8DE',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'Inter_700Bold'
   },
   itemLabelPurple: {
     color: '#8284FA',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'Inter_700Bold'
   },
   itemQuantityContainer: {
     backgroundColor: '#333333',
@@ -36,5 +38,6 @@ export const style = StyleSheet.create({
     color: '#D9D9D9',
     fontSize: 12,
     fontWeight: 'bold',
+    fontFamily: 'Inter_700Bold'
   }
 })
