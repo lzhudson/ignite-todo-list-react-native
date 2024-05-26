@@ -11,7 +11,6 @@ export const styles = StyleSheet.create({
     gap: 8,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
     marginBottom: 8,
   },
   styleContainerFinishedTask: {
@@ -45,6 +44,7 @@ export const styles = StyleSheet.create({
     width: 32,
     height: 32,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    marginLeft: 'auto'
   }
 })
