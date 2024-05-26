@@ -1,7 +1,10 @@
+import { Home } from "./src/screens/Home";
 
 export default function App() {
   return (
-    <Text>Hello App</Text>
+    <>
+      <Home />
+    </>
   );
 }
 
